@@ -1,0 +1,13 @@
+node_modules/**
+LICENSE
+.plasmo/**
+build/chrome-mv3-dev/**
+build/chrome-mv3-prod/**
+build/firefox-mv2-dev/**
+build/firefox-mv2-prod/**
+build/firefox-mv3-dev/**
+build/firefox-mv3-prod/**
+build/userscript-dev/**
+pnpm-lock.yaml
+tsconfig.json
+tsconfig.tsbuildinfo

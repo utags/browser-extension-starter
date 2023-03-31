@@ -42,7 +42,10 @@ console.log(`\nAdd this code to Tampermonkey
 // @match        http://*/*
 // @grant GM_setValue
 // @grant GM_getValue
+// @grant GM_deleteValue
+// @grant GM_listValues
 // @grant GM_addValueChangeListener
+// @grant GM_removeValueChangeListener
 
 // ==/UserScript==
 
@@ -54,7 +57,10 @@ console.log(`\nAdd this code to Tampermonkey
 
   document.GM_getValue = GM_getValue;
   document.GM_setValue = GM_setValue;
+  document.GM_deleteValue = GM_deleteValue;
+  document.GM_listValues = GM_listValues;
   document.GM_addValueChangeListener = GM_addValueChangeListener;
+  document.GM_removeValueChangeListener = GM_removeValueChangeListener;
 
   const script = document.createElement("script");
   script.src = "http://localhost:${port}/index.js";

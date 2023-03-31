@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "browser-extension-storage": "^0.0.2",
-    "browser-extension-utils": "^0.0.6",
+    "browser-extension-utils": "^0.0.9",
     "plasmo": "^0.67.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
